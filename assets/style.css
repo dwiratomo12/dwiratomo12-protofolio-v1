@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main {
+   padding: 20px;
+   overflow: auto;
+}
+h2 {
+  color: #2C2D35
+}
+
+h3 {
+  color: #2C2D35
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #2C2D35;
+  text-align: center;
+  font-weight: bold;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  background-color: #2C2D35;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  font-weight: bold;
+}
+.navbar__link--active {
+  font-weight: 900;
+  border-bottom: 3px solid #b69400;
+  background-color: #f39c1220;
+}
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.profile img {
+  width: 200px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #A3A8D0;
+  text-align: center;
+  color: white;
+}
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+#content {
+  float: left;
+  width: 72%;
+}
+hr{
+  width: 240px;
+  border-top: 2px solid #7777;
+}
+th {
+  text-align: left;
+}
+.column {
+  /* -webkit-column-count: 2;
+  -moz-column-count: 2; */
+  column-count: 2;
+  line-height: 25px;
+  text-align: justify;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+  margin-right: 10px
+ }
+ img:hover {
+  box-shadow: 0 0 9px 4px rgba(0, 140, 186, 0.5);
+ }
+ .img-responsive {
+  max-width: 100%; 
+  display:block; 
+  height: auto;
+}
+#portofolio ul {
+  display:grid;
+  list-style-type:none;
+  margin:0;padding:0;
+  grid-template-columns: repeat(2, auto);
+}
+aside {
+  float: right;
+  width: 28%;
+  padding-left: 20px;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+      width: 100%;
+      padding: 0;
+  }
+  #portofolio ul{
+    display: inline;
+  }
+}
+header {
+  display: inline;
+}
