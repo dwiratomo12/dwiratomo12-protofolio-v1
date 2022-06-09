@@ -17,6 +17,10 @@ h3 {
   color: #2c2d35;
 }
 
+a {
+  cursor: url('https://fav.farm/🖕') 15 0, auto;
+}
+
 footer {
   padding: 20px;
   color: white;
@@ -38,7 +42,6 @@ nav a {
   font-weight: 400;
   text-decoration: none;
   color: white;
-  cursor: url('https://fav.farm/🖕') 15 0, auto;
 }
 nav a:hover {
   font-weight: bold;
