@@ -38,10 +38,10 @@ nav a {
   font-weight: 400;
   text-decoration: none;
   color: white;
+  cursor: url('https://fav.farm/🖕') 15 0, auto;
 }
 nav a:hover {
   font-weight: bold;
-  cursor: url('https://fav.farm/🖕') 15 0, auto;
 }
 .navbar__link--active {
   font-weight: 900;
